@@ -42,9 +42,13 @@ public class AdminAPI implements IAdminAPI
 			listOfMovies.add(repository.getMovie(moviereId)); //asdad
 			
 		repository.addHire(new Hire(client, hiringPeriods, listOfMovies));
+<<<<<<< HEAD
 		repository; //change6 88
 		repository; //change6 77
 		repository; //change6 77
+=======
+		repository; //change6
+>>>>>>> refs/remotes/origin/new-branch
 
 	}
 
