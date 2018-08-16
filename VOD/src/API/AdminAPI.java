@@ -38,11 +38,12 @@ public class AdminAPI implements IAdminAPI
 	{
 		Client client = repository.getClient(clientId);
 		ArrayList<IMovie> listOfMovies = new ArrayList<IMovie>();
-		for(int movieeId : listOfMovieId)
-			listOfMovies.add(repository.getMovie(movieeId)); //asdad
+		for(int moovieId : listOfMovieId)
+			listOfMovies.add(repository.getMovie(moovieId));
 			
-		repository.addHire(new Hire(client, hiringPeriods, listOfMovies));
-		repository;
+		repository.addHire(new Hire(client, hiringPeriods, listOfMovies));	
+		
+		repository.addClient(client);
 	}
 
 	@Override
