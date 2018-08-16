@@ -46,12 +46,13 @@ public class AdminAPI implements IAdminAPI
 		repository; //change6 77
 		repository; //change6 77
 
-		//aaaaaaaabbb
+		//aaaaaaaabbbg
 	}
 
 	@Override
 	public void printReceipt(int hireId) 
 	{
+		///ee
 		Hire hire = repository.getHire(hireId);
 		IPrintable printer = new HirePrinter(hire);
 		printer.print();
