@@ -43,6 +43,8 @@ public class AdminAPI implements IAdminAPI
 			
 		repository.addHire(new Hire(client, hiringPeriods, listOfMovies));
 		repository; //change6 88
+		repository; //change6 77
+		repository; //change6 77
 
 	}
 
